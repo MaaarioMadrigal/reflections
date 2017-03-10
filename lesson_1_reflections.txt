@@ -1,0 +1,31 @@
+Drugs are bad m'kay, but
+FC and DIFF are good m'kay.
+
+Having access to the entire history of a document's changes allows
+a programmer to fearlessly(ish) make changes without needing to 
+be too concerned with getting the program into a broken or worse state.
+Changes can be reverted and the source of the issue (change) will hopefully
+be easy to find, using the available history.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pro: saves will be more logical and have meaning if manually done.
+Any scheme that attempts to automatically do intermittent version
+saving wouldn't be as meaningful.
+con: User may forget and not save often enough...or may overdo it and save to often.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Saving multiple files in one commit is handy for files that are dependent on one another.
+Oftentimes, this is the case for programs that make calls to one another. Google Docs
+doesn't seem tailor made for programming and as a result didn't take this route and treats
+files seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows the user entered details describing the changes that were made.
+git diff shows the actual lines within the files that were added, removed, and/or modified.
+
+How might using version control make you more confident to make changes that could break something?
+You have checkpoints to revert back to for comparisons. This is a great tool to figure out
+WHEN bugs were introduced and the various states that the program has been in.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I intend to use Git for my upcoming personal projects. App development and random efforts to practice coding practices in general.
