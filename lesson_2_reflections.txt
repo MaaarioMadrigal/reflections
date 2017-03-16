@@ -7,3 +7,25 @@ How is the staging area different from the working directory and the repository?
 The staging area is an intermitent step that one can use before commiting changes to a repository. The value of this
 is being able to commit multiple files in a directory to a repository at once. This capability allows users more 
 flexibility to have their commit messages be more cohesive and organized.
+
+How can you use the staging area to make sure you have one commit per logical change?
+git diff -staged command allows you to see the differences between the staged area and the latest commit. This way
+you can see the exact difference in lines of what you are about to commit to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+There are tons of potential circumstances where branches come in handy for keeping the history of a project organized.
+The team can keep track of different approaches to the code using seperate branches.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams are helpful as they offer a quicker way of viewing/thinking about the different branches that a repository
+may consist of. It is difficult to look at a list of text describing the different branches to get a clear picture of
+the layout/organization of a repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Didn't work. Something about Caroline's edits starting from a different point in time from mine. Don't want to spend the time
+combing over code I'm unfamiliar with to fix it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pro is that it can save you a lot of time where the changes made on two different branches were unrelated.  The con is that git
+will not be able to correctly always tell the proper way to merge two branches. If changes were made to the same lines or areas
+the resulting merge could make changes that are illogical or lead to compiler errors or errors in general.
