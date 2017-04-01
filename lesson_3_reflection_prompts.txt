@@ -4,3 +4,14 @@ on a project with others.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Manual updating is preferred because automated updates might pull changes down that conflict or cause you to lose work that you currently have in progress on your local branch.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks allow you to make a copy of someone elses repository on github. You will then have a working version of it that you can manage in your work space on github.
+Clones allow you to make a copy of a branch to your own local system. You will then have a working version of it that you can manage on your local system.
+Branches are a means of organizing a project and the ongoing changes that have been made to said project.
+Use forks when you intend to modify an existing github project with others. Use clone when you plan to modify a project by yourself and don't need others to have
+access to the changes you are trying out. Branches are always used pretty much. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It provides an easier means of figuring out the differences between the current state of the local copy with its changes and the github copy that may or may not also have had
+changes made.
